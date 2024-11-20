@@ -38,3 +38,118 @@ header nav ul li a{
 header nav ul li a:hover{
     color: #5c6761;
 }
+/*sessão home*/
+#home{
+    background-image: url('../images/fundo-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+section#home main{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+section#home main div{
+    margin: auto 20px;
+}
+
+section#home h1{
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+section#home p{
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+}
+/*sessão sobre*/
+section#sobre{
+    background-color: #fff;
+    color: #282e2b;
+    padding: 40px 50px;
+    margin: 0;
+}
+section#sobre main{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+section#sobre main div.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+section#sobre h1{
+    font-size: 30pt;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section#sobre div.titulo div.borda{
+    width: 80px;
+    background-color: #282e2b;
+    height: 6px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+section#sobre main div.conteudo div{
+    margin: 0 20px;
+}
+section#sobre p{
+    text-align: justify;
+    text-indent: 50px;
+}
+/*sessão portfolio*/
+section#portfolio{
+    background-color: #282e2b;
+    color: white;
+}
+section#portfolio main.interface{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+section#portfolio main.interface div.conteudo{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    justify-content: center;
+}
+section#portfolio h1{
+    font-size: 30pt;
+    margin: 20px 0 0 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+section#portfolio div.titulo div.borda{
+    width: 80px;
+    background-color: #fff;
+    height: 6px;
+    margin-bottom: 20px;
+}
+section#portfolio div.conteudo figure{
+    background: #fff;
+    color: #282e2b
+}
+section#portfolio div.conteudo figure figcaption{
+    padding: 5px 0;
+}
+section#portfolio div.conteudo figure figcaption h2{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16pt;
+}
+section#portfolio div.conteudo figure figcaption p{
+    margin: 0;
+    text-align: center;
+}
